@@ -1,31 +1,56 @@
 .container-footer {
-    background-color: #333; /* Color de fondo */
-    color: white; /* Color del texto */
-    padding: 20px; /* Espaciado interior */
-    text-align: center; /* Centra el texto */
-    position: relative; /* Posición relativa */
-    margin-top: 20px; /* Espacio superior opcional */
-    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color de texto asegurado */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    z-index: 1000;
+    height: auto;
 }
 
 .content.footer {
-    max-width: 1100px; /* Ancho máximo del footer */
-    margin: 0 auto; /* Centra el contenido */
+    
+    max-width: 1100px;
+    margin: 0 auto;
+    
 }
 
-.container-ul {
-    list-style: none; /* Elimina viñetas */
-    padding: 0; /* Elimina padding */
+.container-ulista {
+    list-style: none;
+    padding: 0;
+    
 }
 
-.container-li {
-    margin: 10px 0; /* Espaciado entre los elementos de la lista */
-    font-size: 14px; /* Tamaño de fuente */
+.container-lista {
+    color: aliceblue; /* Color de texto asegurado */
+    margin: 10px 0;
+    font-size: 14px;
+    
 }
 
-/* Responsive Styles */
+/* Estilos responsive */
 @media (max-width: 768px) {
-    .container-li {
-        font-size: 12px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    .container-footer {
+        height: auto; /* Deja que la altura se ajuste automáticamente */
+        width: auto; /* Asegura que ocupe todo el ancho */
+        padding: 20px; /* Asegura que el padding se mantenga */
+        background-color: #333; /* Asegura el fondo oscuro */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-ulista {
+        display: flex;
+        flex-direction: column;
+        background-color: #333; /* Color de fondo oscuro */
+
+    }
+
+    .container-lista {
+        font-size: 17px; /* Texto más pequeño para pantallas pequeñas */
+        color: white; /* Asegura que el color del texto sea visible */
     }
 }

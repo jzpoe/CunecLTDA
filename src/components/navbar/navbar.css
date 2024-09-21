@@ -39,6 +39,8 @@
     font-size: 18px;
     cursor: pointer;
    padding: 10px;
+   text-decoration: none;
+
   }
   
   .container-li:first-child {
@@ -70,7 +72,8 @@
         display: flex; /* Muestra el menú hamburguesa */
     }
 
-    ul{
-        background-color: red;
+   
+    .container-li:first-child{
+      margin-right: 0;
     }
 }

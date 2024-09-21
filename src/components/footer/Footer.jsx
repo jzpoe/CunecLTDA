@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <div className='container-footer'>
         <div className='content footer'>
-            <ul className='container-ul'>
-                <li className='container-li'><p>Dirección</p></li>
-                <li className='container-li'>Ciudad</li>
-                <li className='container-li'>Derechos Reservados</li>
+            <ul className='container-ulista'>
+                <li className='container-lista'><p>Dirección: calle 17 con carrera 4ta</p></li>
+                <li className='container-lista'>Ciudad: Bogotá</li>
+                <li className='container-lista'>&copy; 2024 Cunec LTDA. Todos los derechos reservados.</li>
             </ul>
         </div>
     </div>
