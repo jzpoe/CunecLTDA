@@ -54,4 +54,6 @@ table {
 	margin-bottom: 20px; /* Espacio entre componentes */
   }
 
-  
+  body{
+	background-image: url("Fondo/diseños.jpeg ");
+  }
