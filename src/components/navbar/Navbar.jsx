@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa"; // Importa el ícono de hamburguesa
 
 import { useEffect, useState } from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -60,4 +60,5 @@ const closeMenu =()=>{
   );
 };
 
+export default Navbar
 
