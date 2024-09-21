@@ -1,0 +1,31 @@
+.container-footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interior */
+    text-align: center; /* Centra el texto */
+    position: relative; /* Posición relativa */
+    margin-top: 20px; /* Espacio superior opcional */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+.content.footer {
+    max-width: 1100px; /* Ancho máximo del footer */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+.container-ul {
+    list-style: none; /* Elimina viñetas */
+    padding: 0; /* Elimina padding */
+}
+
+.container-li {
+    margin: 10px 0; /* Espaciado entre los elementos de la lista */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container-li {
+        font-size: 12px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+}

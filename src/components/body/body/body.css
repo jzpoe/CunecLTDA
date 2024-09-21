@@ -1,0 +1,78 @@
+/* Estilo para el contenedor general de las cards */
+.container-card {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cards se muevan a la siguiente fila si no hay suficiente espacio */
+    justify-content: space-around; /* Distribuye las cards con espacios iguales */
+    gap: 20px; /* Espacio entre cada card */
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  
+  /* Estilo individual de cada card */
+  .content-card {
+    flex: 1 1 300px; /* Cada card tendrá un ancho mínimo de 300px pero podrá crecer si hay espacio */
+    max-width: 250px; /* Limita el ancho máximo de cada card */
+    
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black; /* Borde negro delineado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones para hacer un efecto al hover */
+    height: 300px;
+    width: 300px;
+  }
+  
+  /* Estilo de los títulos de las cards */
+  .card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto del título */
+  }
+  
+  /* Estilo del texto en las cards */
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555; /* Color del texto */
+    text-align: justify;
+  }
+  
+  /* Efecto hover para las cards */
+  .card:hover {
+    transform: scale(1.05); /* Hace que la card crezca un poco cuando el usuario pasa el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al hacer hover */
+  }
+
+  .container-img {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  /* Estilo de las imágenes para que se ajusten correctamente */
+  .container-img img {
+    max-width: 100%; /* Ajusta la imagen al ancho disponible */
+    width: 200px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la imagen */
+  }
+  
+  /* Responsive: En pantallas más pequeñas, las cards ocupan el 100% del ancho */
+  @media (max-width: 768px) {
+    .container-card{
+        
+    }
+    .content-card {
+      flex: 1 1 100%;
+      max-width: 100%; /* Asegura que no haya un ancho máximo que limite el tamaño */
+
+    }
+  }
