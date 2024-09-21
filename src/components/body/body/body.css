@@ -67,9 +67,7 @@
   
   /* Responsive: En pantallas más pequeñas, las cards ocupan el 100% del ancho */
   @media (max-width: 768px) {
-    .container-card{
-        
-    }
+    
     .content-card {
       flex: 1 1 100%;
       max-width: 100%; /* Asegura que no haya un ancho máximo que limite el tamaño */
