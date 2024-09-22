@@ -46,7 +46,7 @@
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las cards */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones para hacer un efecto al hover */
-    height: 300px;
+    height: 700px;
     width: 300px;
   }
   
