@@ -4,7 +4,11 @@ import "./body.css";
 const Body = () => {
   return (
     <>
+    <div className="container-titulo-1">
+            <p>¿Quienes somos?</p> 
+        </div>
       <div className="video-container">
+        
         <iframe
           width="100%"
           height="400"

@@ -1,3 +1,28 @@
+.container-titulo-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  margin-top: 70px;
+  
+  
+  }
+
+  .container-titulo-1 p{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1.5;
+    color: white; /* Color del texto */
+    text-align: justify;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro con opacidad */
+    height: 200px;
+    border-radius: 92% 8% 40% 60% / 67% 71% 29% 33%;;
+      margin-top: 60px;
+}
+
 .video-container {
   width: 100%;
   max-width: 800px; /* Limita el ancho del video en pantallas grandes */
